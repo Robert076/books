@@ -14,4 +14,4 @@ Follow these steps to get the app running locally using Minikube:
 4. 🌐 Expose the service via port forwarding:  
    `kubectl port-forward service/books-service 8080:8080`
 
-✅ Now you can access the service at: [http://localhost:8080](http://localhost:8080)
+✅ Now you can access the service at: [http://localhost:8080/books](http://localhost:8080/books)
