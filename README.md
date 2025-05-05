@@ -2,7 +2,7 @@ Run it by: (macOS, minikube)
 
 1. Cloning the repo
 ```bash
-git clone https://github.com/Robert076/books/blob/main/README.md
+git clone https://github.com/Robert076/books
 ```
 2. Starting minikube server:
 ```bash
