@@ -1,11 +1,11 @@
 package book
 
 type Book struct {
-	id          int
-	title       string
-	author      string
-	releaseYear string
-	topic       string
+	Id          int
+	Title       string
+	Author      string
+	ReleaseYear string
+	Topic       string
 }
 
 var Books = []Book{
