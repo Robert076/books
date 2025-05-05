@@ -1,18 +1,17 @@
-Run it by: (macOS, minikube)
+## 🚀 Running the Project on macOS with Minikube
 
-1. Cloning the repo
-```bash
-git clone https://github.com/Robert076/books
-```
-2. Starting minikube server:
-```bash
-minikube start
-```
-3. Running k8s files:
-```bash
-kubectl apply -f kubernetes/
-```
-4. Port forwarding from inside minikube:
-```bash
-kubectl port-forward service/books-service 8080:8080
-```
+Follow these steps to get the app running locally using Minikube:
+
+1. 📦 Clone the repository:  
+   `git clone https://github.com/Robert076/books && cd books`
+
+2. 🚜 Start the Minikube cluster:  
+   `minikube start`
+
+3. ⚙️ Apply Kubernetes configuration files:  
+   `kubectl apply -f kubernetes/`
+
+4. 🌐 Expose the service via port forwarding:  
+   `kubectl port-forward service/books-service 8080:8080`
+
+✅ Now you can access the service at: [http://localhost:8080](http://localhost:8080)
