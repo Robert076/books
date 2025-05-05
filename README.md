@@ -1,6 +1,9 @@
 Run it by:
 
 1. Cloning the repo
+```bash
+git clone https://github.com/Robert076/books/blob/main/README.md
+```
 2. Starting minikube server:
 ```bash
 minikube start
@@ -9,7 +12,7 @@ minikube start
 ```bash
 kubectl apply -f kubernetes/
 ```
-5. Port forwarding from inside minikube:
+4. Port forwarding from inside minikube:
 ```bash
 kubectl port-forward service/books-service 8080:8080
 ```
