@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	model "github.com/Robert076/books.git/src/model"
+	model "github.com/Robert076/books.git/model"
 )
 
 func main() {
