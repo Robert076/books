@@ -1,4 +1,4 @@
-Run it by:
+Run it by: (macOS, minikube)
 
 1. Cloning the repo
 ```bash
