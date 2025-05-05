@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: books-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: books-app
+  template:
+    metadata:
+      name: books-pod
+      labels:
+        app: books-app
+    spec:
+      containers:
+        - name: books-container
+          image: robert076/books:despicable-me-2
+          ports:
+            - containerPort: 8080
